@@ -1,0 +1,193 @@
+body {
+  background-color: #fdf8e1;
+  font-family: Arial, sans-serif; /* Set font family */
+  font-size: 20px; /* Increase font size for body text */
+}
+
+.container {
+  width: 80%; /* Set container width */
+  margin: 0 auto; /* Center container horizontally */
+  padding: 20px; /* Add padding */
+  background-color: #fcefb4; /* Set container background color */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  overflow-y: auto; /* Enable vertical scrolling for container */
+}
+
+h2 {
+  text-align: center; /* Center-align heading */
+  font-size: 28px; /* Increase font size for h2 headings */
+  /* font-style: italic; */
+  text-decoration: underline;
+}
+
+h3 {
+  margin-top: 20px; /* Add space above section headings */
+  font-size: 24px; /* Increase font size for h3 headings */
+  /* font-style: italic; */
+  text-decoration: underline;
+}
+
+p {
+  margin-bottom: 10px; /* Add space below paragraphs */
+  font-size: 20px; /* Increase font size for paragraphs */
+}
+
+ul {
+  margin-bottom: 10px; /* Add space below unordered lists */
+  font-size: 20px; /* Increase font size for lists */
+}
+
+  /* for tips to be responsible */
+
+  .service{
+    background: #fdf8e1;
+    min-height: 100vh;
+}
+
+.service .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:0 auto;
+}
+
+.service .box-container .box{
+    flex:1 1 25rem;
+    padding:2rem 1rem;
+    text-align: center;
+    background: #fcefb4;
+    border:.2rem solid var(--green);
+    margin:2rem;
+    cursor: pointer;
+}
+
+.service .box-container .box i{
+    color: var(--green);
+    font-size: 4rem;
+    padding:1rem 0;
+}
+
+.service .box-container .box h3{
+    color: #333;
+    font-size: 2rem;
+}
+
+.service .box-container .box p{
+    color: #666;
+    font-size: 1.5rem;
+    padding:1rem 0;
+}
+
+.service .box-container .box a{
+    color:#333;
+    font-size: 1.7rem;
+}
+
+.service .box-container .box a:hover{
+    color:var(--green);
+}
+
+.service .box-container .box:hover{
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+/* for heading */
+
+.heading{
+  text-align: left;
+  font-size: 4rem;
+  color:#555;
+  padding:1rem;
+  padding-top: 7rem;
+}
+
+.heading i{
+  color:var(--green);
+  font-size: 2rem;
+}
+
+/* Styles for the navigation bar */
+nav {
+  background-color: #495057; /* Set background color for navigation bar */
+}
+
+.nav-links {
+  list-style-type: none; /* Remove bullet points from list */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Align navigation links to the center */
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white; /* Set text color for navigation links */
+}
+
+.nav-links li a:hover {
+  background-color: green; /* Change background color on hover */
+}
+
+/* Styles for the header section */
+header {
+  background-color:#9ef01a;
+  text-align: center; /* Align text to the center */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.page-title {
+  color: #0496ff; /* Set color for page title */
+  font-size: 34px; /* Set font size for page title */
+  margin-bottom: 10px; /* Add space below the title */
+}
+
+.page-description {
+  color: #343a40; /* Set color for page description */
+  font-size: 24px; /* Set font size for page description */
+}
+
+/* effects for read more button*/
+
+/* Define styles for the box */
+.box {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Define styles for the read more link */
+.box a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+/* Define hover effect for the read more link */
+.box a:hover {
+  background-color: #999;
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 15px 0;
+}
+
+

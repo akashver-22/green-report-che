@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenReport</title>
+  <link rel="stylesheet" href="report.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+  <style></style>
+
+  <script>
+    document.getElementById('report-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+  var formData = new FormData(this);
+  // Here you can add JavaScript code to handle form submission, such as sending data to a server
+});
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="check.html">Educational Resources</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+    <h1 class="page-title">Report Environmental Issue</h1>
+    <p class="page-description">Let's work together to protect our planet. Use the form below to report any environmental issues you encounter.</p>
+  </header>
+
+  <section class="report" style="background-color: whitesmoke;">
+    <h2>Report Environmental Issue</h2>
+    <form id="report-form">
+      <label for="issue">Issue:</label>
+      <select id="issue" name="issue">
+        <option value="air">Air Quality</option>
+        <option value="water">Water Pollution</option>
+        <option value="waste">Waste Management</option>
+      </select>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+      <label for="photo">Attach Photo:</label>
+      <input type="file" id="photo" name="photo" accept="image/*">
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- reported post section starts -->
+
+  <section class="post" id="post">
+
+    <h1 class="heading" style="font: size 34px;"> <i class="fas fa-quote-left"></i>Recent Reports<i class="fas fa-quote-right"></i> </h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <img src="img1.jpg" alt="">
+            <div class="content">
+                <span> <i class="fas fa-calendar"></i> Jan 2, 2024 </span>
+                <h3>Air Quality Alert Issued as Pollution Levels Spike</h3>
+                <p>Health officials warn residents to limit outdoor activities as smog and particulate matter reach hazardous levels in urban areas.</p>
+                <a href="#"><button class="btn">read more</button></a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="img2.jpg" alt="">
+            <div class="content">
+                <span> <i class="fas fa-calendar"></i> Feb 5, 2024 </span>
+                <h3>Soil Pollution Threatens Agricultural Productivity</h3>
+                <p>Excessive use of chemical fertilizers and pesticides leads to soil contamination, impacting crop yields and soil health.</p>
+                <a href="#"><button class="btn">read more</button></a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="img3.jpg" alt="">
+            <div class="content">
+                <span> <i class="fas fa-calendar"></i> Mar 28, 2024 </span>
+                <h3>Excessive Plastic Usage Threatens Marine Ecosystems</h3>
+                <p>Plastic pollution in oceans and waterways poses a significant threat to marine life, with 
+                  plastic debris endangering species through ingestion and entanglement.</p>
+                <a href="#"><button class="btn">read more</button></a>
+            </div>
+        </div>
+
+        <div class="box">
+          <img src="img4.jpg" alt="">
+          <div class="content">
+              <span> <i class="fas fa-calendar"></i> Mar 14, 2024 </span>
+              <h3>Deforestation Accelerates Climate Change, Loss of Biodiversity</h3>
+              <p>Rapid deforestation in tropical regions contributes to climate change, loss of habitat, 
+                and decline in biodiversity, affecting ecosystems worldwide.</p>
+              <a href="#"><button class="btn">read more</button></a>
+          </div>
+      </div>
+    
+    </div>
+    </section>
+
+    <!-- footer section starts -->
+
+    <footer>
+      <p>&copy; 2024 GreenReport</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

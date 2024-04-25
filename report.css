@@ -1,0 +1,145 @@
+/* Styles for the navigation bar */
+nav {
+    background-color: #495057; /* Set background color for navigation bar */
+  }
+  
+  .nav-links {
+    list-style-type: none; /* Remove bullet points from list */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Align navigation links to the center */
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white; /* Set text color for navigation links */
+  }
+  
+  .nav-links li a:hover {
+    background-color: green; /* Change background color on hover */
+  }
+  
+  /* Styles for the header section */
+  header {
+    background-color:#9ef01a;
+    text-align: center; /* Align text to the center */
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .page-title {
+    color: #0496ff; /* Set color for page title */
+    font-size: 34px; /* Set font size for page title */
+    margin-bottom: 10px; /* Add space below the title */
+  }
+  
+  .page-description {
+    color: #343a40; /* Set color for page description */
+    font-size: 24px; /* Set font size for page description */
+  }
+  
+
+section {
+    padding: 60px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .post{
+    min-height: 100vh;
+}
+
+.post .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.post .box-container .box{
+    width: 35rem;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    margin:2rem 1.5rem;
+}
+
+.post .box-container .box img{
+    height: 23rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.post .box-container .box .content{
+    padding:1rem;
+}
+
+.post .box-container .box .content span{
+    font-size: 1.5rem;
+    color:#666;
+}
+
+.post .box-container .box .content span i{
+    padding:1rem 0;
+    color:var(--green);
+} 
+
+.post .box-container .box .content h3{
+    font-size: 2.4rem;
+    color:#333;
+}
+
+.post .box-container .box .content:hover h3{
+    text-decoration: underline;
+    color:var(--green);
+}
+
+.post .box-container .box .content p{
+    color:#666;
+    font-size: 1.5rem;
+}
+.heading{
+    text-align: left;
+    font-size: 4rem;
+    color:#343a40;
+    padding:1rem;
+    padding-top: 7rem;
+}
+
+.heading i{
+    color:var(--green);
+    font-size: 2rem;
+}
+
+/* for footer section */
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 15px 0;
+}
